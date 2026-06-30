@@ -187,9 +187,10 @@ to refactor.
 ## Git workflow
 
 - License: MIT.
-- Active development branch for this work: `claude/claude-md-docs-141k90`.
-  Develop, commit, and push there; do not push to `main` without explicit
-  permission. Use `git push -u origin <branch>`.
+- Develop on the branch designated for your current task (or, absent one, a
+  dedicated feature branch); commit and push there with
+  `git push -u origin <branch>`. Do not push to `main` without explicit
+  permission.
 - Do not open a pull request unless explicitly asked.
 - Large binary artifacts (`.xlsx`, `.log`, `.zip`, big notebooks) are committed
   to the repo; be deliberate before adding more.
